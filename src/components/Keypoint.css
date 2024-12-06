@@ -1,0 +1,27 @@
+.keypoints {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  font-size: 1.5em;
+  padding-top: 1.5em;
+}
+
+.marquee {
+  display: flex;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+span h1 {
+  padding: 0;
+  display: inline-block;
+}

@@ -1,0 +1,56 @@
+.joinSec {
+  position: relative;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.jVid {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(2px);
+  z-index: -1;
+}
+.jVid video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(2px);
+}
+
+.join-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #758e4f;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.join-card h1 {
+  margin: 0 0 10px 0;
+  font-size: 2em;
+}
+.join-card p {
+  margin: 0 0 20px 0;
+  font-size: 1.2em;
+}
+.join-card button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  color: #758e4f;
+  cursor: pointer;
+}
+
+.join-card:hover {
+  background: #719c31;
+}
+
+.join-card button:hover {
+  background: #4c5e31;
+  color: white;
+}
